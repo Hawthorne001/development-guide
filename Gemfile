@@ -11,11 +11,11 @@ group :jekyll_plugins do
   gem 'uswds-jekyll', '~> 5.3'
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
-  gem 'jemoji', '>= 0.12.0'
+  gem 'jemoji', '>= 0.13.0'
   gem 'jekyll-last-modified-at'
 end
 
 group :development, :test do
-  gem 'html-proofer'
+  gem 'html-proofer', '>= 3.19.0'
   gem 'rake'
 end
